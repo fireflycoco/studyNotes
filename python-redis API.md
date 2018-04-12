@@ -1,6 +1,6 @@
 摘自：http://python.jobbole.com/87305/
 
-```
+```python
 import redis
 conn = redis.Redis(host='127.0.0.1', port=6379)
 conn.set('name', 'coco')
